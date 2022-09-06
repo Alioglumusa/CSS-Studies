@@ -1,0 +1,27 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Uchen&display=swap'); */
+
+body{
+    /* font-family:'Roboto',sans-serif; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    /* text-align: center;
+    font-weight: 400;
+    text-decoration: #23af13 wavy underline;
+    letter-spacing: 15px;
+    font-size: 50px;
+    font-family: Verdana, sans-serif; */
+}
+
+p{
+    text-align: right;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.2em;
+    font-family: 'Uchen', serif;
+}
+
+a{
+    text-decoration: none;
+}

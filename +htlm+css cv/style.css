@@ -1,0 +1,35 @@
+body{
+    background-color: #EAE3D2;
+  }
+  hr{
+    background-color: none;
+    border-top: dotted;
+    border-top-color: gray;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-width: 10px;
+    height: 2px;
+    width: 5%;  
+  }
+
+  h1{
+    color:#1a31b4;
+  }
+
+  h2{
+    color:#00D7FF;
+  }
+
+  h3{
+    color:#0096FF;
+  }
+  
+  a{
+    color: rgba(49, 184, 184, 0.938);
+  }
+  
+  #logo{
+    width: 300px;
+  }
+  

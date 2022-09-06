@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+h1{
+    margin-top: 0;
+}
+
+.one{
+    background-color: #6666ff; 
+    width: 200px;
+    height: 200px;
+    border: solid 10px;
+    padding: 20px;
+}
+
+.two{
+    background-color: #f00;
+    width: 200px;
+    height: 200px;
+    border: solid 20px;
+    margin-left: 260px;
+}
+
+.three{
+    background-color: #00f;
+    width: 200px;
+    height: 200px;
+    margin-left: 500px;
+    border: solid 10px;
+}

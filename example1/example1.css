@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    line-height: 1.4;
+    padding-top: 15px;
+}
+
+.more-info:link{
+    color: red;
+}
+
+.more-info:visited{
+    color: green;
+}
+
+.more-info:hover{
+    color: hotpink;
+}
+
+.more-info:hover,
+.more-info:active{
+    text-decoration: none;
+}
+
+.more-info:active{
+    color: blue;
+}
+
+/* PRODUCT */
+.product{
+    border: solid;
+    width: 60%;   
+    margin-left: 20%;
+}
+
+.product-title{
+    background-color:#f7f7f7;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+/*PRODUCT INFORMATION*/
+.price{
+    font-size: 24px;
+}
+
+.shipping{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #777;
+}
+
+/* PRODUCT DETAILS */
+.details-title{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.details-list{
+    list-style: square;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.details-list li {
+    margin-bottom: 10px;
+}
+.add-cart{
+    color: #fff;
+    background-color: #000;
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.add-cart:hover{
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-top: 3px solid black;
+}
+
+aside{
+    margin-top: 10px;
+}
+
+.section-2{
+    margin-top: 20px;
+}
+
+nav{
+    margin-top: 3px;
+}
+
+h1{
+    padding: 10px;
+    padding: 3px;
+}
+
+.box{
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.box:first-child {
+    margin-left: 0px;
+}
+
+#box1 {
+    background-color: black ;
+}
+#box2 {
+    background-color: blue;
+}
+#box3 {
+    background-color: red;
+}
+#box4 {
+    background-color: orange;
+}
+#box5 {
+    background-color: green;
+}
+#box6 {
+    background-color: brown;
+}
+
+.sale {
+    background-color: #ec2f2f;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 7px 15px;
+    display: inline-block;
+    position: absolute;
+    left: 350px;
+    top: 3px;
+}
+
+/* -----6.hafta */
+ 
+img {
+    float: left;
+}

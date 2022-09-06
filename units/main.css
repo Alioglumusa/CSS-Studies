@@ -1,0 +1,60 @@
+html{
+    font-size: 10px;
+}
+section {
+    background-color: #2a9d8f;
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    background-color: #e5989b;
+    width: 50%;
+    height: 50%;
+}
+
+h1 {
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 80px;
+}
+
+article{
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 4em;
+    margin-left: 1em;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/*"em" üst ögenin marginine eşit değil, elementin kendisinin yazı tipi boyuna göre şekillenir. */
+
+button {
+    font-size: 1em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: #6d6875;
+    color: #e5989b;
+}
+
+ul{
+    font-size: 0.7em;
+}
+
+#rems h3 {
+    font-size: 2rem;
+}
+
+#rems ul { 
+    font-size: 0.8rem;
+}
+

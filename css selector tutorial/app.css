@@ -1,0 +1,124 @@
+/* *{
+    color: red;
+    margin: 0px;
+}
+
+h1,h2{
+    color: magenta;
+} */
+
+button{
+    background-color: #C9E4CA !important;
+}
+
+#signup{
+    background-color: #55828b;
+}
+
+span{
+    color: #c9e4ca;
+}
+
+.tag{
+    color: #c9e4ca;
+    background-color: #55828b;
+    font-size: 16px;
+}
+
+/* span a {
+    color: rgb(216, 83, 176);
+} */
+
+.post a{
+    color: #b4869f;
+}
+
+a {
+    color: red;
+}
+
+footer a{
+    color: green;
+}
+
+h1,h2 {
+    color: #f1faee;
+}
+/* 1. h1 h2 veirlen renk */
+
+input + button {
+    background-color: purple;
+}
+
+h2 + button {
+    color: magenta;
+    font-size: 20px;
+}
+
+footer>a {
+    color: greenyellow;
+}
+
+input[type='password'] {
+    color: greenyellow;
+}
+
+/* section[class='post'] {
+    background-color: purple;
+} */
+
+a[href*="google" i] {
+    color: magenta;
+}
+/* i küçük büyük harf duyarlılığı ekler */
+
+.post button:hover{
+    background-color: #511730;
+    color: #fff;
+}
+/* üzerine gelince değişti hover */
+
+.post button:active{
+    background-color: green;
+}
+/* tıklayınca rengi değişir active */
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,h2 {
+    color: yellow;
+}
+/* 2.h1 h2 verilen renk */
+
+.post{
+    background-color: #e0d68a;
+}
+
+.post:nth-last-of-type(2n + 1) {
+    background-color: #86bbd8;
+}
+
+h2::first-letter{
+    font-size: 50px;
+}
+
+h2::selection{
+    background-color: #16c172;
+}
+
+::selection{
+    background-color: yellow;
+}
+/* seçtiğim yazılar rengi değişti arkaplan */
+
+button:hover{
+    background-color: olive;
+    font-size: 30px;
+}
+
+button {
+    background-color: red;
+}
+/* important olanı seçer bu geçersiz olur */
